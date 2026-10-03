@@ -1,0 +1,46 @@
+# --- Core ---
+python-dotenv
+pydantic
+
+# --- Data & versioning ---
+dvc
+pandas
+numpy
+
+# --- ML / tracking ---
+mlflow
+scikit-learn
+xgboost
+lightgbm
+
+# --- Deep Learning / LLM ---
+torch
+transformers
+peft              # LoRA / QLoRA
+bitsandbytes      # quantification 4-bit
+accelerate
+sentence-transformers
+faiss-cpu
+
+# --- Orchestration multi-agents ---
+langgraph
+langchain
+langchain-community
+
+# --- API ---
+fastapi
+uvicorn
+
+# --- Interface ---
+streamlit
+
+# --- Intégration Jira/Trello ---
+jira
+py-trello
+requests
+
+# --- Monitoring ---
+evidently
+
+# --- Tests ---
+pytest

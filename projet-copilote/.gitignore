@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Data (versionné par DVC, pas par Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modèles entraînés
+*.bin
+*.safetensors
+*.pt
+checkpoints/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
