@@ -4,11 +4,7 @@ __pycache__/
 *.pyc
 .env
 
-# Data (versionné par DVC, pas par Git)
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Data : DVC gère lui-même l'ignore des fichiers de données
 
 # Modèles entraînés
 *.bin
