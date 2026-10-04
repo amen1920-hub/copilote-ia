@@ -1,0 +1,5 @@
+outs:
+- md5: d3f23b95afb775b9bdd2be980bd41bc3
+  size: 6037120
+  hash: md5
+  path: jira_issues_sample.csv
