@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "split": "val",
+    "n_eval": 8,
+    "json_strict_rate": 0.25,
+    "json_lenient_rate": 0.25,
+    "schema_ok_rate": 0.25,
+    "aberrant_estimate_rate": 0.5294117647058824,
+    "avg_seconds": 36.3375
+  },
+  "rows": [
+    {
+      "json_strict": false,
+      "json_lenient": false,
+      "schema_ok": false,
+      "n_tasks": 0,
+      "aberrant_estimates": 0,
+      "theme": "application mobile de livraison de repas",
+      "seconds": 36.8,
+      "raw": "{\"tasks\": [{\"name\": \"Évaluation des besoins et des fonctionnalités\", \"description\": \"Détermination du fonctionnement de l'application et de ses fonctionnalités essentielles.\", \"estimate_days\": 10, \"category\": \"Analyse et conception\"}, {\"name\": \"Création du design UI/UX\", \"description\": \"Conception graphique de l'interface utilisateur et de l'expérience utilisateur.\", \"estimate_days\": 15, \"category\": \"Design\"}, {\"name\": \"Développement de la base de données\", \"description\": \"Création d'une base de données pour stocker les informations des restaurants et des clients.\", \"estimate_days\": 10, \"category\": \"Développement\"}, {\"name\": \"Implémentation des fonctionnalités principales\", \"description\": \"Ajout de fonctionnalités telles que la recherche de restaurants, la commande de repas, etc.\", \"estimate_days\": 40, \"category\": \"Développement\"}, {\"name\": \"Test et validation\", \"description\": \"Conducteur de tests unitaires, fonctionnels, et de performance pour s'assurer de la qualité de l'application.\", \"estimate_days\": 20, \"category\": \"Tests\"}, {\"name\": \"Documentation et formation\", \"description\": \"Création de documents de documentation pour les utilisateurs finaux et formation des équipes utilisateurs.\", \"estimate_days\": 15, \"category\": \"Documentation\"}, {\"name\": \"Publication sur Google Play Store\", \"description\": \"Publication de l'application sur le Google Play Store.\", \"estimate_days\": 10, \"category\": \"Publication\"}, {\"name\": \"Maintenance et améliorations\", \"description\": \"Gestion des bugs, mise à jour des fonctionnalités, et amélioration continue de l'application.\", \"estimate_days\": 30, \"category\": \"Maintenance\"}}"
+    },
+    {
+      "json_strict": false,
+      "json_lenient": false,
+      "schema_ok": false,
+      "n_tasks": 0,
+      "aberrant_estimates": 0,
+      "theme": "plateforme e-commerce B2C",
+      "seconds": 30.4,
+      "raw": "{\"tasks\": [{\"name\": \"Analyse du marché\", \"description\": \"Conseil sur les tendances actuelles, analyse concurrentielle, identification des besoins clients.\", \"estimate_days\": 10, \"category\": \"Planning\"}, {\"name\": \"Conception de l'architecture du site\", \"description\": \"Définition des fonctionnalités essentielles, conception de l'interface utilisateur (UI/UX)\", \"estimate_days\": 15, \"category\": \"Design\"}, {\"name\": \"Création du prototype\", \"description\": \"Développement d'un prototype basé sur la conception de l'architecture\", \"estimate_days\": 20, \"category\": \"Développement\"}, {\"name\": \"Validation des utilisateurs potentiels\", \"description\": \"Mise en œuvre d'un sondage pour recueillir des retours des utilisateurs potentiels\", \"estimate_days\": 10, \"category\": \"Tests et évaluation\"}, {\"name\": \"Développement du site web\", \"description\": \"Implémentation des fonctionnalités du site web en suivant le prototype\", \"estimate_days\": 60, \"category\": \"Développement\"}, {\"name\": \"Test intégrés\", \"description\": \"Exécution de tests pour vérifier la cohérence des différents modules\", \"estimate_days\": 20, \"category\": \"Tests et évaluation\"}, {\"name\": \"Mise en production\", \"description\": \"Publication du site web sur le serveur hébergé\", \"estimate_days\": 5, \"category\": \"Déploiement\"}}"
+    },
+    {
+      "json_strict": false,
+      "json_lenient": false,
+      "schema_ok": false,
+      "n_tasks": 0,
+      "aberrant_estimates": 0,
+      "theme": "outil CRM pour une petite entreprise",
+      "seconds": 32.2,
+      "raw": "{\"tasks\": [{\"name\": \"Analyse du besoin client\", \"description\": \"Étude des besoins spécifiques de l'entreprise concernant un outil CRM.\", \"estimate_days\": 7, \"category\": \"Planning\"}, {\"name\": \"Conception du design d'affichage\", \"description\": \"Création de la conception graphique de l'interface utilisateur.\", \"estimate_days\": 14, \"category\": \"Design et UI/UX\"}, {\"name\": \"Développement du back-end\", \"description\": \"Implémentation des fonctionnalités logicielles essentielles (enregistrement, récupération de données, etc.).\", \"estimate_days\": 30, \"category\": \"Developpement\"}, {\"name\": \"Développement du front-end\", \"description\": \"Création de l'interface utilisateur web.\", \"estimate_days\": 28, \"category\": \"Developpement\"}, {\"name\": \"Tests unitaires\", \"description\": \"Exécution de tests de qualité sur les parties principales de l'application.\", \"estimate_days\": 14, \"category\": \"Tests\"}, {\"name\": \"Tests fonctionnels\", \"description\": \"Validation de l'ensemble des fonctionnalités de l'outil CRM.\", \"estimate_days\": 21, \"category\": \"Tests\"}, {\"name\": \"Documentation\", \"description\": \"Création de documentations techniques pour l'utilisation de l'outil.\", \"estimate_days\": 14, \"category\": \"Documentation\"}, {\"name\": \"Formation aux utilisateurs\", \"description\": \"Organisation de sessions de formation pour les utilisateurs finaux.\", \"estimate_days\": 7, \"category\": \"Formation\"}}}"
+    },
+    {
+      "json_strict": false,
+      "json_lenient": false,
+      "schema_ok": false,
+      "n_tasks": 0,
+      "aberrant_estimates": 0,
+      "theme": "plateforme de cours en ligne",
+      "seconds": 39.4,
+      "raw": "{\"tasks\": [{\"name\": \"Analyse des besoins du client\", \"description\": \"Évaluation du marché et identification des fonctionnalités essentielles\", \"estimate_days\": 10, \"category\": \"Planning\"}, {\"name\": \"Design de l'interface utilisateur (UI/UX)\", \"description\": \"Création d'un design interactif et fonctionnel pour l'utilisateur final\", \"estimate_days\": 20, \"category\": \"Design & UX\"}, {\"name\": \"Conception du système d'information (Système d'exploitation des données - SIO)\", \"description\": \"Planification et conception de la base de données\", \"estimate_days\": 15, \"category\": \"Système informatique\"}, {\"name\": \"Développement du front-end\", \"description\": \"Création de la partie visible du site\", \"estimate_days\": 30, \"category\": \"Développement logiciel\"}, {\"name\": \"Développement du back-end\", \"description\": \"Création de la partie qui gère les opérations du site\", \"estimate_days\": 60, \"category\": \"Développement logiciel\"}, {\"name\": \"Tests unitaires\", \"description\": \"Exécution de tests sur les parties individuelles du système\", \"estimate_days\": 15, \"category\": \"Test & Validation\"}, {\"name\": \"Tests fonctionnels\", \"description\": \"Exécution de tests sur les fonctionnalités de l'application\", \"estimate_days\": 20, \"category\": \"Test & Validation\"}, {\"name\": \"Documentation\", \"description\": \"Création de documentations techniques pour l'utilisation\", \"estimate_days\": 10, \"category\": \"Documentation\"}, {\"name\": \"Formation des utilisateurs\", \"description\": \"Formation à l'utilisation de la plateforme\", \"estimate_days\": 5, \"category\": \"Formation\"}, {\"name\": \"Maintenance\", \"description\": \"Gestion des bugs post-lancement\", \"estimate_days\": 30, \"category\": \"Maintenance\"}}"
+    },
+    {
+      "json_strict": true,
+      "json_lenient": true,
+      "schema_ok": true,
+      "n_tasks": 7,
+      "aberrant_estimates": 4,
+      "theme": "application mobile de livraison de repas",
+      "seconds": 34.1,
+      "raw": "{\"tasks\": [{\"name\": \"Recherche et évaluation des partenaires de livraison\", \"description\": \"Détermine les meilleures plateformes pour le service de livraison.\", \"estimate_days\": 10, \"category\": \"Planning\"}, {\"name\": \"Design de l'interface utilisateur (UI/UX)\", \"description\": \"Création d'une interface améliorée et intuitive pour l'utilisateur final.\", \"estimate_days\": 20, \"category\": \"Design & User Experience\"}, {\"name\": \"Développement de la base de données\", \"description\": \"Conception et création d'une base de données robuste pour stocker les informations sur les restaurants, les plats et les clients.\", \"estimate_days\": 15, \"category\": \"Développement logiciel\"}, {\"name\": \"Développement de la partie serveur\", \"description\": \"Écriture des fichiers de code pour la partie serveur qui gère la communication entre les différents composants du système.\", \"estimate_days\": 30, \"category\": \"Développement logiciel\"}, {\"name\": \"Développement de la partie client\", \"description\": \"Création des applications mobiles (iOS et Android) pour le fonctionnement de l'application.\", \"estimate_days\": 40, \"category\": \"Développement logiciel\"}, {\"name\": \"Tests unitaires et intégration\", \"description\": \"Mise en œuvre de tests pour vérifier la qualité des différentes parties du système.\", \"estimate_days\": 20, \"category\": \"Tests & Validation\"}, {\"name\": \"Documentation\", \"description\": \"Création de documents de documentation pour l'utilisation de l'application.\", \"estimate_days\": 10, \"category\": \"Documentation\"}]}"
+    },
+    {
+      "json_strict": false,
+      "json_lenient": false,
+      "schema_ok": false,
+      "n_tasks": 0,
+      "aberrant_estimates": 0,
+      "theme": "plateforme de cours en ligne",
+      "seconds": 36.1,
+      "raw": "{\"tasks\": [{\"name\": \"Évaluation du marché\", \"description\": \"Conseils sur la concurrence et les opportunités de marché.\", \"estimate_days\": 7, \"category\": \"Planning stratégique\"}, {\"name\": \"Architecture du système\", \"description\": \"Définition des composants techniques de la plateforme.\", \"estimate_days\": 14, \"category\": \"Design et conception\"}, {\"name\": \"Méthodologie d'apprentissage\", \"description\": \"Choix des outils d'enseignement pour la plateforme.\", \"estimate_days\": 10, \"category\": \"Content management\"}, {\"name\": \"Interface utilisateur (UI)\", \"description\": \"Conception graphique et ergonomie de l'interface.\", \"estimate_days\": 21, \"category\": \"Design UI/UX\"}, {\"name\": \"API et back-end\", \"description\": \"Développement des API et du back-end du système.\", \"estimate_days\": 35, \"category\": \"Development\"}, {\"name\": \"Front-end\", \"description\": \"Développement des parties visibles aux utilisateurs.\", \"estimate_days\": 35, \"category\": \"Development\"}, {\"name\": \"Tests unitaires\", \"description\": \"Validation des fonctionnalités individuelles.\", \"estimate_days\": 21, \"category\": \"Testing\"}, {\"name\": \"Bugs fixes\", \"description\": \"Correction des bugs trouvés lors des tests.\", \"estimate_days\": 14, \"category\": \"Fixes\"}, {\"name\": \"Documentation\", \"description\": \"Création de la documentation technique.\", \"estimate_days\": 7, \"category\": \"Documentation\"}, {\"name\": \"Formation à la plateforme\", \"description\": \"Accompagnement des utilisateurs pour apprendre à utiliser la plateforme.\", \"estimate_days\": 28, \"category\": \"Formation et support\"}}}"
+    },
+    {
+      "json_strict": true,
+      "json_lenient": true,
+      "schema_ok": true,
+      "n_tasks": 10,
+      "aberrant_estimates": 5,
+      "theme": "plateforme de cours en ligne",
+      "seconds": 41.3,
+      "raw": "{\"tasks\": [{\"name\": \"Analyse du besoin et du marché\", \"description\": \"Conseil sur l'analyse des besoins, des concurrents et du marché.\", \"estimate_days\": 10, \"category\": \"Planning\"}, {\"name\": \"Conception de la base de données\", \"description\": \"Création de la base de données pour stocker les informations des utilisateurs, des cours, etc.\", \"estimate_days\": 20, \"category\": \"Développement\"}, {\"name\": \"Architecture logicielle\", \"description\": \"Conception de l'architecture du système pour assurer la sécurité et l'efficacité.\", \"estimate_days\": 15, \"category\": \"Développement\"}, {\"name\": \"Développement front-end\", \"description\": \"Création du site web interactif avec des fonctionnalités de navigation et de recherche.\", \"estimate_days\": 30, \"category\": \"Développement\"}, {\"name\": \"Développement back-end\", \"description\": \"Création du serveur qui gère la logique du site web, les fonctionnalités de connexion, etc.\", \"estimate_days\": 60, \"category\": \"Développement\"}, {\"name\": \"Tests unitaires\", \"description\": \"Test de chaque partie du système pour s'assurer qu'elle fonctionne correctement.\", \"estimate_days\": 20, \"category\": \"Validation\"}, {\"name\": \"Tests d'intégration\", \"description\": \"Vérification de la compatibilité entre différentes parties du système.\", \"estimate_days\": 20, \"category\": \"Validation\"}, {\"name\": \"Tests de performance\", \"description\": \"Évaluation de la vitesse de réponse du système.\", \"estimate_days\": 15, \"category\": \"Validation\"}, {\"name\": \"Documentation\", \"description\": \"Rédaction de la documentation des interfaces utilisateur et techniques.\", \"estimate_days\": 10, \"category\": \"Maintenance\"}, {\"name\": \"Formation à la maintenance\", \"description\": \"Formation pour les administrateurs du système à la maintenance du système.\", \"estimate_days\": 15, \"category\": \"Maintenance\"}]}"
+    },
+    {
+      "json_strict": false,
+      "json_lenient": false,
+      "schema_ok": false,
+      "n_tasks": 0,
+      "aberrant_estimates": 0,
+      "theme": "application mobile de livraison de repas",
+      "seconds": 40.4,
+      "raw": "{\"tasks\": [{\"name\": \"Analyse du marché et des concurrents\", \"description\": \"Connaître les tendances du marché, identifier les principaux concurrents et leurs points forts.\", \"estimate_days\": 7, \"category\": \"Planning\"}, {\"name\": \"Design UI/UX\", \"description\": \"Créer une interface utilisateur (UI) et une expérience utilisateur (UX) conviviale pour l'utilisateur final.\", \"estimate_days\": 14, \"category\": \"Design\"}, {\"name\": \"Développement de base de données\", \"description\": \"Créer une base de données pour stocker les informations sur les restaurants, les menus et les commandes.\", \"estimate_days\": 10, \"category\": \"Developpement\"}, {\"name\": \"Développement de la partie client\", \"description\": \"Réaliser l'application pour smartphones qui permettra aux clients de réserver et payer des repas.\", \"estimate_days\": 30, \"category\": \"Developpement\"}, {\"name\": \"Développement de la partie serveur\", \"description\": \"Créer l'API pour la partie client afin qu'elle puisse communiquer avec le serveur.\", \"estimate_days\": 20, \"category\": \"Developpement\"}, {\"name\": \"Tests unitaires\", \"description\": \"Conduire des tests pour vérifier que chaque fonctionnalité fonctionne correctement.\", \"estimate_days\": 14, \"category\": \"Tests\"}, {\"name\": \"Test de systèmes\", \"description\": \"Exécuter des tests de systèmes pour vérifier la cohérence globale de l'application.\", \"estimate_days\": 14, \"category\": \"Tests\"}, {\"name\": \"Documentation\", \"description\": \"Fournir des instructions claires sur l'utilisation de l'application.\", \"estimate_days\": 7, \"category\": \"Documentation\"}, {\"name\": \"Formation aux opérateurs de livraison\", \"description\": \"Former les opérateurs de livraison à utiliser l'application pour suivre les commandes.\", \"estimate_days\": 7, \"category\": \"Formation\"}}]"
+    }
+  ]
+}
